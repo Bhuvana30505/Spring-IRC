@@ -12,6 +12,11 @@ public class kabbadimatchService{
 	public kabbadimatch saveinfo(kabbadimatch k)
 	{
 		return liger.save(k);
-	}
+
 	
+}
+
+public List<Kabbadimatch>getInfo()
+{
+	return krepo.findAll();
 }
