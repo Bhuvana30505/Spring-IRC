@@ -1,12 +1,14 @@
 package com.example.Kabbadi1.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 @Entity
 @Table(name="kabbadimatch")
 public class kabbadimatch {
 	@Id
+	@GeneratedValue
 	 private int id;
 		private String name;
 		private  int age;
