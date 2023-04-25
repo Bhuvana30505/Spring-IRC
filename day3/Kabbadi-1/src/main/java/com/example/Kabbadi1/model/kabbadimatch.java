@@ -4,7 +4,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 @Entity
-@Table(name="kabbadimatch")
 public class kabbadimatch {
 	@Id
 	 private int id;
