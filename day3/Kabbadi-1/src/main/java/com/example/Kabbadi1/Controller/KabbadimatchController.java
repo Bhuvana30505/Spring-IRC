@@ -10,7 +10,8 @@ import com.example.Kabbadi1.model.kabbadimatch;
 @RestController
 public class KabbadimatchController {
 @Autowired
-public kabbadimatchService Kser;
+kabbadimatchService Kser;
+
 @PostMapping("/kabba")
 public kabbadimatch addDetails(@RequestBody kabbadimatch kr)
 {

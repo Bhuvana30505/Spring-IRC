@@ -1,5 +1,6 @@
 package com.example.Kabbadi.Model;
 
-public class kabbadiRepository {
+
+public class kabbadiRepository extends {
 
 }
