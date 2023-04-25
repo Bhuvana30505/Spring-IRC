@@ -1,13 +1,15 @@
 package projectmodel;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name="Kabbadi")
-public class Kabbadi {
+public class kabbadi{
 	@Id
+	@GeneratedValue
     private int id;
 	private String name;
 	private  int age;
