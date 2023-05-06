@@ -14,6 +14,7 @@ public class kabbadimatch {
 		private String color;
 		private String District;
 		private String College;
+		
 		public int getId() {
 			return id;
 		}
